@@ -75,18 +75,31 @@ footer {
   font-size: 0.9em;
   border-top: 2px solid #3b82f6;
 }
+
 .profile {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  align-items: center;   
+  gap: 20px;             
+  justify-content: flex-start;
 }
 
 
 .profile img {
-  width: 100px;    
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;  
+  height: 120px;   
+  width: auto;       
+  border-radius: 10px;   
+  object-fit: cover;
   border: 3px solid #60a5fa;
 }
+
+
+.profile-text h1 {
+  margin: 0;
+  font-size: 2rem;     
+  color: #1f2937;      
+}
+
+.profile-text p {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  color: #4b5563;      
